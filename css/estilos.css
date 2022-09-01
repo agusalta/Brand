@@ -1,0 +1,109 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    font-size: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: transparent;
+}
+.nav-link, navbar-brand, #logo, #carrito  {
+    margin-left: 1.5rem;
+    margin-right: 5rem;
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Page */
+
+header {
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    position: relative;
+}
+.H {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#home {
+    background-image: url(/assets/skate2.jpg);
+    background-size: cover;
+    background-position-y: 45%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+#productos {
+    background-image: url(/assets/skate.jpg);
+    background-size: cover;
+    background-position-y: 8%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+#contenidos {
+    background-color: black;
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 5vh;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: black;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Boards */
+
+#tienda {
+    background-image: url(/assets/skate3-blur.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300vh;
+}
+
+#container-tienda {
+    margin-top: 5em;
+}
+
+#board-card {
+    padding: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.board-1 {
+    height: 400px;
+    width: 400px;
+}
