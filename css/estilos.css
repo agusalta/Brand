@@ -23,6 +23,7 @@ body {
 }
 .nav-link:hover {
     color: #F9BA48 !important;
+    transition: 0.2s ease-in-out;
 }
 
 /* Page */
@@ -113,11 +114,8 @@ strong {
 
 #footer {
     background-color: black;
-    height: 30vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: max-content;
 }
 
 
@@ -153,6 +151,12 @@ strong {
     color: white;
     font-weight: bold;
     background-color: #F9BA48;
+}
+
+#boton-cards:hover {
+    background-color: transparent;
+    color: #F9BA48;
+    transition: 0.2s ease-in-out;
 }
 
 .board-1 {
