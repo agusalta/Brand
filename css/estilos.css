@@ -107,8 +107,14 @@ section {
 }
 
 .card-body {
-    background-color: black;
     border-radius: 50px;
+}
+
+#boton-cards {
+    border: 1px solid #F9BA48;
+    color: white;
+    font-weight: bold;
+    background-color: #F9BA48;
 }
 
 .board-1 {
