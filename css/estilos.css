@@ -115,16 +115,6 @@ strong {
     color: #F9BA48;
 }
 
-
-/* Footer */
-
-#footer {
-    background-color: black;
-    width: 100%;
-    height: max-content;
-}
-
-
 /* Boards */
 
 #tienda {
@@ -200,4 +190,26 @@ strong {
     background-color: transparent;
     color: #F9BA48;
     transition: 0.2s ease-in-out;
+}
+
+/* Footer */
+
+#footer {
+    background-color: black;
+    width: 100%;
+    height: max-content;
+    border-top: 2px solid black;
+}
+
+.wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(/assets/wave-orange-2png.png);
+}
+
+#copyright {
+    background-color: black;
 }
