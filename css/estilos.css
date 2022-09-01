@@ -19,7 +19,10 @@ body {
     margin-left: 1.5rem;
     margin-right: 5rem;
     color: white !important;
-    font-weight: bold;
+    font-weight: bolder;
+}
+.nav-link:hover {
+    color: #F9BA48 !important;
 }
 
 /* Page */
