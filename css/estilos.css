@@ -61,13 +61,42 @@ section {
     width: 100%;
     height: 100vh;
 }
+
+/* Contenidos */
+
 #contenidos {
     background-color: black;
     background-size: cover;
     background-position-y: center;
     background-attachment: fixed;
     width: 100%;
-    height: 5vh;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-contenidos {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#row-contenidos {
+    padding: 4rem;
+}
+.pad-contenidos {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.h1-contenidos {
+    color: #F9BA48;
+}
+
+.p-contenidos {
+    color: white;
+    font-weight: 500;
+    font-size: larger;
 }
 
 
