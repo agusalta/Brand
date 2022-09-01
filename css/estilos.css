@@ -75,12 +75,10 @@ section {
 /* Contenidos */
 
 #contenidos {
-    background-color: black;
+    background: black;
     border-top: 2px solid #F9BA48;
     border-bottom: 2px solid #F9BA48;
     background-size: cover;
-    background-position-y: center;
-    background-attachment: fixed;
     width: 100%;
     height: max-content;
     
